@@ -1,0 +1,19 @@
+{
+  "name": "mean-proto",
+  "version": "1.0.0",
+  "description": "1) Install yo using npm (if not installed)\r     $ npm install -g yo",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahikero01/MEAN-Proto.git"
+  },
+  "author": "Nick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahikero01/MEAN-Proto/issues"
+  },
+  "homepage": "https://github.com/mahikero01/MEAN-Proto#readme"
+}
