@@ -1,6 +1,6 @@
 {
   "name": "mean-proto",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "1) Install yo using npm (if not installed)\r     $ npm install -g yo",
   "main": "src/app.js",
   "scripts": {
@@ -10,10 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/mahikero01/MEAN-Proto.git"
   },
+  "keywords": [
+    "MIT"
+  ],
   "author": "Nick",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mahikero01/MEAN-Proto/issues"
   },
-  "homepage": "https://github.com/mahikero01/MEAN-Proto#readme"
+  "homepage": "https://github.com/mahikero01/MEAN-Proto#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
