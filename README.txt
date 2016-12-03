@@ -15,3 +15,12 @@
 
 6) install express
     $ npm install express --save-exact
+
+7) install angular
+    $ npm install angular
+
+8) install nodemon for dev purpose
+    $ npm install -g nodemon (to use type "nodemon src/app")
+
+9) install webpack for bundling
+    $ npm install -g webpack

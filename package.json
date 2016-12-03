@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/mahikero01/MEAN-Proto#readme",
   "dependencies": {
+    "angular": "^1.5.9",
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.3"
   }
 }
