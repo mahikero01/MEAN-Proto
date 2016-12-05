@@ -3,7 +3,11 @@
 var express = require('express');
 var router = require('./api');
 
+debugger;
+
 var app = express();
+
+require('./database');
 
 app.use('/', express.static('public'));
 

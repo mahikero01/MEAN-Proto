@@ -24,3 +24,6 @@
 
 9) install webpack for bundling
     $ npm install -g webpack
+
+10) install iron-node for node debugging
+    $ npm install -g iron-node
