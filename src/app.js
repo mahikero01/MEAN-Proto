@@ -1,6 +1,6 @@
 'use strict';
 
-//will use the express module
+//use the express module
 var express = require('express');
 var router = require('./api');
 
@@ -11,6 +11,8 @@ var app = express();
 
 require('./database');
 
+
+//at the root URL serve content of the public folder (the index.html will be run here)
 app.use('/', express.static('public'));
 
 app.use('/api', router);
