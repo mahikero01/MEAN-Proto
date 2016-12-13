@@ -27,3 +27,5 @@
 
 10) install iron-node for node debugging
     $ npm install -g iron-node
+
+    src/app.js -> point of entry
