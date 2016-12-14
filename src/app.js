@@ -1,10 +1,12 @@
 'use strict';
 
+debugger;
+
 //use the express module
 var express = require('express');
 var router = require('./api');
 
-debugger;
+
 
 //create an instance of express
 var app = express();

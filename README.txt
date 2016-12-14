@@ -120,3 +120,25 @@ Setting up Mongo DB
             console.log('Succesfully connected to Mongo!');
         };
     });
+
+
+Setting a Schema for Mongo DB
+1) Include mongoose
+    var mongoose = require('mongoose');
+
+2) Create Schema
+    syntax: mongoose.Schema({
+        propertyName: propertyType,
+        propertyName: propertyType,
+    });
+
+
+    var todoSchema = new mongoose.Schema({
+        name: String,
+        completed: Boolean
+    });
+
+3) Create the model
+    syntax = mongoose.model('ModelName', schemaName);
+
+    var model = mongoose.model('Todo', schema);

@@ -9,6 +9,7 @@ var Todo = require('../models/todo');
 var router = express.Router();
 
 router.get('/todos', function(req, res){
+    debugger;
     Todo.find({}, function(err, todos) {
         res.json({todos: todos});
     });  
