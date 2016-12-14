@@ -28,6 +28,9 @@
 10) install iron-node for node debugging
     $ npm install -g iron-node
 
+11) install the body parser
+    $ npm install body-parser --save -e
+
 
 Setting up and Express Application
 1) import the module

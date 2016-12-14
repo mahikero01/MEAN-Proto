@@ -17,4 +17,15 @@ router.get('/todos', function(req, res){
     });  
 });
 
+router.post('/todos', function(req, res){
+    var todo = req.body;
+
+    Todo.create(todo, function(err, todo){
+        if (err) {
+            return res.status(500).json({err: err.message});
+        };
+        res.json({'todo': todo, message: 'Todo Created'});
+    });
+});
+
 module.exports = router;

@@ -4,6 +4,7 @@ debugger;
 
 //use the express module
 var express = require('express');
+var parser = require('body-parser');
 var router = require('./api');
 
 
@@ -17,6 +18,7 @@ require('./seed');
 
 //at the root URL serve content of the public folder (the index.html will be run here)
 app.use('/', express.static('public'));
+app.use(parser.json());
 
 app.use('/api', router);
 
