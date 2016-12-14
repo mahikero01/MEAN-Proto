@@ -9,8 +9,10 @@ var Todo = require('../models/todo');
 var router = express.Router();
 
 router.get('/todos', function(req, res){
-    debugger;
     Todo.find({}, function(err, todos) {
+        if(err) {
+            return res.status(500).json({message: err.message});
+        };
         res.json({todos: todos});
     });  
 });
