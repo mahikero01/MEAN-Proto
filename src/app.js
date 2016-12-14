@@ -12,6 +12,7 @@ var router = require('./api');
 var app = express();
 
 require('./database');
+require('./seed');
 
 
 //at the root URL serve content of the public folder (the index.html will be run here)
