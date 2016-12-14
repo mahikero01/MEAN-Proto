@@ -100,3 +100,23 @@ Using the Express router for  URL namespace
     syntax: app.use('nameSpaceToUse', functionToRun);
 
     app.use('/api', router);
+
+
+
+Setting up Mongo DB
+
+1) Include mongoose
+    var mongoose = require('mongoose');
+
+2) Create connection
+    syntax: mongoose.connect('mongodb://hostName/databaseName' function() {
+        call back function
+    });
+
+    mongoose.connect('mongodb://localhost/mean-todo', function(err){
+        if(err) {
+            console.log('Failed connecting to Mongodb!');
+        } else {
+            console.log('Succesfully connected to Mongo!');
+        };
+    });
